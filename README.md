@@ -32,13 +32,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    The DOM allows us to directly change the page using nodes and objects. This allows us 
+    to change the style and structure using languages like javascript
+
 2. What is an event?
+
+    Events are anything that happens within the page that javascript can interact with.
+    Clicks, pressing a key, moving the mouse cursor. Pretty much anything that a user does
+    to manipulate the page.
 
 3. What is an event listener?
 
+    Event listener's are bits of code that wait for an event to happen. When that event happens
+    it executes that bit of code, and will be reflected within the users page
+
 4. Why would we convert a NodeList into an Array?
 
+    Because nodelists are not arrays technically, so you cannot manipulate them using array methods.
+    First we need to convert them to arrays in order to manipulate them like one.
+
 5. What is a component?
+
+    A component is a bit of reusable code that does not bleed into other content. Keeping our code 
+    organized and easier to manage.
 
 ### Git Set up
 
